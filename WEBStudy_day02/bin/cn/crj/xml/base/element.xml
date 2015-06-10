@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<country>
+		<city>
+			<realName>
+				北京
+			</realName>
+			<alias>
+				首府
+			</alias>
+		</city>
+		<city>
+			<realName>上海</realName>
+			<alias>
+				魔都111
+			</alias>
+		</city>
+	</country>
+</root>

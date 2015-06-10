@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+				<!ELEMENT root (桌子+)>
+				<!ELEMENT 桌子 EMPTY>
+				<!ATTLIST 桌子
+							id    ID    #REQUIRED
+							width CDATA #REQUIRED
+							height (50|60|70|80) "60"
+							make  CDATA #IMPLIED
+							color CDATA #FIXED "白色"
+							weight CDATA "20"
+							>
+						
+]>
+	<!-- fixed 要不有就是  白色，要不没有 -->
+<root>
+	<桌子 id="t20110611" width="60" height="80" make="上海"/>
+</root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DOCTYPE root SYSTEM "外部的DTD"-->
+<!--DOCTYPE root PUBLIC "外部共用的非常著名的DTD"-->
+<!--  -->
+<!-- 下面是不分开的写法，不建议 -->
+<!DOCTYPE root [<!ELEMENT root (student)>>
+				<!ELEMENT student (name,age)>
+				<!ELEMENT age (#PCDATA)>
+				<!ELEMENT age (#PCDATA)>
+]>
+<root>
+	<student>
+		<name>张三</name>
+		<age>30</age>
+	</student>	
+</root>

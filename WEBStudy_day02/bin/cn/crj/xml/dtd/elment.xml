@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+				<!ELEMENT root (student+)>
+				<!ELEMENT student (name,age,alias)>
+				<!ELEMENT name (#PCDATA)>
+				<!ELEMENT age ((real,rrr*)|virtual)>
+				<!--ELEMENT alias EMPTY   ANY不建议使用，DTD中，必须将所有标签都定义完-->
+				<!ELEMENT alias ANY>
+				<!ELEMENT real (#PCDATA)>
+				<!ELEMENT virtual (#PCDATA)>
+				]>
+<root>
+	<student>
+		<name>zz</name>
+		<age>
+			<real></real>
+			<rrrr></rrrr>
+			<vitual></vitual>
+		</age>
+		<alias>
+		</alias>
+	</student>	
+	<student>
+		<name>aa</name>
+		<age>
+			<real>10</real>
+			<vitual>11</vitual>
+		</age>
+		<alias>
+		</alias>
+	</student>
+</root>

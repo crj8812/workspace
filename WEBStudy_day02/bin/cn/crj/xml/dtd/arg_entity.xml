@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "arg_entity.dtd">
+				<!-- 有%的是参数实体，没有的是引用实体 -->
+<root>
+	<客户>
+		<姓名></姓名>
+	</客户>
+	<员工>
+		<姓名></姓名>
+	</员工>
+</root>

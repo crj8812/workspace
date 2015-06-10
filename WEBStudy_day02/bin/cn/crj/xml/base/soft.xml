@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<modelA>
+		<modelA1>
+			A模块
+		</modelA1>
+	</modelA>
+	<modelB>
+		<modelB1>
+			B模块
+		</modelB1>
+	</modelB>
+</root>
