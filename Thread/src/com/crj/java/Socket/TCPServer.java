@@ -180,13 +180,9 @@ public class TCPServer extends Thread{
 		ServerSocket serverSocket = new ServerSocket(30000);
 
 		while (true) {
-			Socket socket = serverSocket.accept();
-			
-			TCPServer messageRunner=new TCPServer(socket);
-			
-			Thread messageThread=new Thread(messageRunner);
-			
-			messageThread.start();
+			Socket socket = serverSocket.accept();			
+			TCPServer tcpServer=new TCPServer(socket);			
+			tcpServer.start();
 
 			System.out.println("A client connect");
 		}
